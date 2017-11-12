@@ -1,8 +1,9 @@
 body {
     background-color:grey ;
+    background-image: url("https://media.giphy.com/media/l0CRB5dYBKwlkDC48/giphy.gif");
 }
 h1 {
-    color: black;
+    color: white;
     border-style: none;
 }
 
@@ -38,3 +39,6 @@ ul, li, a {
  
  #add-new-todo-button:active{
   box-shadow: 1px 1px 1px #90A4AE;}
+  .completed-todo{
+  text-decoration: line-through;
+}
