@@ -1,0 +1,17 @@
+body {
+    background-color:green ;
+}
+h1 {
+    color: black;
+    border-style: dashed;
+    
+}
+
+.pomodoro-estimate{
+  font-weight: bold;
+  color: #F44336 ;
+  background-color: #F5F5F5 ;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+}
