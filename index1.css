@@ -1,17 +1,30 @@
 body {
-    background-color:green ;
+    background-color:grey ;
 }
 h1 {
     color: black;
-    border-style: dashed;
-    
+    border-style: none;
 }
 
 .pomodoro-estimate{
   font-weight: bold;
-  color: #F44336 ;
-  background-color: #F5F5F5 ;
+  color: #949494 ;
+  background-color: #000000 ;
   border-radius: 50px;
   font-size: 14px;
   padding: 5px 10px 5px 10px;
+}
+
+#add-new-todo-button{
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #90A4AE ;
+  display: block;
+  background-color: #03A9F4 ;
+  margin-top: 10px;
 }
