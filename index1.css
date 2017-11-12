@@ -28,3 +28,13 @@ h1 {
   background-color: #03A9F4 ;
   margin-top: 10px;
 }
+
+ul, li, a {
+    text-decoration:none;
+    list-style-type:none;
+    padding-left: 0pt;
+    padding: 15px;
+}
+ 
+ #add-new-todo-button:active{
+  box-shadow: 1px 1px 1px #90A4AE;}
