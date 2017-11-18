@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="index1.css" type="text/css">
     </head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="index.1.js"></script>
     <body>
          <h1>
       <img class="company-logo" src=""></img>
@@ -20,8 +20,10 @@
                 </li>
                 <li> <input type="checkbox"> Finish Homework <span class="pomodoro-estimate">2 Pomodoros</span></li>
          </ul>
-         <input type="text" placeholder="add a new todo...">
-         <input type="number" placeholder="pomodoro estimate...">
-        <input id = "add-new-to do-button" type = "submit" value = "Add to do">
+        <div id="new-todo-block">
+      <input class="text-input" id="new-todo-description" type="text" placeholder="Add a new todo...">
+      <input class="text-input" id="new-pomodoro-estimate" type="number" placeholder="Pomodoro estimate...">
+      <input class="button" id="add-new-todo-button" type="submit" value="Add to do">
+    </div>
     </body>
 </html>
